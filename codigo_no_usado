@@ -1,0 +1,9 @@
+
+*Codigo para obtener id del formulario - no sirvio.
+<?php
+    $query = " SELECT * FRoM asistencia";
+    $result_asistencia = mysqli_query($conn, $query);
+    $row = mysqli_fetch_array($result_asistencia) ?>
+
+    <a href="listas_de_estudiantes.php?id=<?php echo $row['id'] ?>" name="save_asistencia">Guardar</a>
+<?php ?>

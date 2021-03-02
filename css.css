@@ -1,0 +1,23 @@
+.abs-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form{
+    width: 350px;
+}
+
+.mt-n1 {
+    margin-top: -3.5rem !important;
+  }
+
+.pointer{
+    cursor: pointer;
+}
+
+.colorBox input:checked {
+    background-color: #77dd77;
+    outline: 2px solid #44ee5b;
+}
